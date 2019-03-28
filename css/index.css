@@ -1,10 +1,3 @@
-div#container
-{
-   width: 970px;
-   position: relative;
-   margin: 0 auto 0 auto;
-   text-align: left;
-}
 body
 {
    background-color: #FFFFFF;
@@ -18,21 +11,487 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   text-align: center;
+   padding: 0;
    overflow-x: hidden;
    overflow-y: hidden;
 }
-#Layer1
+#Viy
+{
+   background-color: transparent;
+   background-image: url(../images/Viy.png);
+   background-repeat: repeat;
+   background-position: left top;
+}
+#Vechera
+{
+   background-color: transparent;
+   background-image: url(../images/VNH.png);
+   background-repeat: no-repeat;
+   background-position: left bottom;
+}
+#Nos
+{
+   background-color: transparent;
+   background-image: url(../images/nos3.png);
+   background-repeat: repeat;
+   background-position: left top;
+}
+#Bulba
+{
+   background-color: transparent;
+   background-image: url(../images/TB3.png);
+   background-repeat: repeat;
+   background-position: left top;
+}
+#MDushy
+{
+   background-color: transparent;
+   background-image: url(../images/MD.png);
+   background-repeat: repeat;
+   background-position: left top;
+}
+#Revizor
+{
+   background-color: transparent;
+   background-image: url(../images/R.png);
+   background-repeat: no-repeat;
+   background-position: right bottom;
+}
+#VDikanka2
+{
+   background-color: transparent;
+   background-image: url(../images/VD2.png);
+   background-repeat: no-repeat;
+   background-position: left center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VDikanka
+{
+   background-color: transparent;
+   background-image: url(../images/VD2.png);
+   background-repeat: no-repeat;
+   background-position: left center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VNos2
+{
+   background-color: transparent;
+   background-image: url(../images/NT.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VNos
+{
+   background-color: transparent;
+   background-image: url(../images/NT.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VMD2
+{
+   background-color: transparent;
+   background-image: url(../images/VM.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VMD
+{
+   background-color: transparent;
+   background-image: url(../images/VM.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VR2
+{
+   background-color: transparent;
+   background-image: url(../images/VR.png);
+   background-repeat: no-repeat;
+   background-position: right top;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VR
+{
+   background-color: transparent;
+   background-image: url(../images/VR.png);
+   background-repeat: no-repeat;
+   background-position: right top;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VViy2
+{
+   background-color: transparent;
+   background-image: url(../images/VT.png);
+   background-repeat: repeat;
+   background-position: left top;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VViy
+{
+   background-color: transparent;
+   background-image: url(../images/VT.png);
+   background-repeat: repeat;
+   background-position: left top;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VBulba2
+{
+   background-color: transparent;
+   background-image: url(../images/VB.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#VBulba
+{
+   background-color: transparent;
+   background-image: url(../images/VB.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextViy
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextViy:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LTextViy
 {
    background-color: transparent;
    background-image: none;
-   border: 1px transparent solid;
-   border-radius: 6px;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
 }
-#Layer2
+#LTextNos
+{
+   background-color: transparent;
+   background-image: none;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextNos
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextNos:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LTextBulba
+{
+   background-color: transparent;
+   background-image: none;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextBulba
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextBulba:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LTextVechera
+{
+   background-color: transparent;
+   background-image: none;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextVechera
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextVechera:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LTextMDushy
+{
+   background-color: transparent;
+   background-image: none;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextMDushy
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextMDushy:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LTextRevizor
+{
+   background-color: transparent;
+   background-image: none;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextRevizor
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextRevizor:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LTextGogol
+{
+   background-color: transparent;
+   background-image: none;
+   filter: alpha(opacity=0);
+   opacity: 0.00;
+}
+#TextGogol
+{
+   border: 1px transparent solid;
+   border-radius: 4px;
+   background-color: transparent;
+   background-image: none;
+   color :#000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 15px;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+   overflow: auto;
+   resize: none;
+}
+#TextGogol:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#Gogol
 {
    background-color: transparent;
    background-image: url(../images/golova.png);
    background-repeat: repeat;
    background-position: left top;
+}
+#Layer1
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer2
+{
+   background-color: #9400D3;
+   background-image: none;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   display: block;
+   text-align: center;
+   vertical-align: middle;
+}
+#PanelMenu1_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_panel #PanelMenu1_markup
+{
+   display: block;
+}
+#PanelMenu1_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#PanelMenu1_markup li a, #PanelMenu1_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 1px;
+   border-radius: 0;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+}
+#PanelMenu1_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 150px;
+   z-index: 9999;
+}
+#wb_PanelMenu1 a, #PanelMenu1_markup li a
+{
+   color: #4F4F4F;
+   border: 0px #2E2E2E none;
+   background-color: #FFFFFF;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   text-decoration: none;
+}
+#wb_PanelMenu1 a:hover, #PanelMenu1_markup li a:hover
+{
+   color: #000000;
+   background-color: #FFFFFF;
+   border: 1px #2E2E2E none;
+}
+#PanelMenu1_panel
+{
+   background-color: #FFFFFF;
+   overflow-y: auto;
+}
+#PanelMenu1
+{
+   padding-left: 80px;
+}
+#PanelMenu1:after
+{
+   position: absolute;
+   top: 50%;
+   left: 0px;
+   width: 80px;
+   height: 80px;
+   margin-top: -40px;
+   content: "";
+   display: block;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-image: url(../images/CBS2.png);
+}
+#PanelMenu1
+{
+   line-height: 46px;
+   width: -32px;
+   height: 46px;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 16px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 16px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 16px;
+   vertical-align: middle;
+   line-height: 16px;
 }
